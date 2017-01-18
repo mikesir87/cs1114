@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  app:
+    build: ./
+    volumes:
+      - ./src/index.html.tmpl:/index.html.tmpl
+      - ./src/slides.js:/usr/share/nginx/html/slides.js
+      - ./slides:/usr/share/nginx/html/slides
+      - ./src/styles.css:/usr/share/nginx/html/styles.css
+    ports:
+      - 80:80

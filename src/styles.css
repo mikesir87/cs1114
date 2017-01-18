@@ -1,0 +1,97 @@
+body { 
+    font-family: 'Arial'; 
+    font-size: large;
+    color: #555;
+}
+h1, h2, h3 {
+    font-family: 'Arial';
+    font-weight: normal;
+    color: #000;
+}
+
+.remark-slide-content {
+    border-bottom: 10px solid #600;
+}
+
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 2em;
+}
+
+li {
+    padding-bottom: .3em;
+}
+
+li ul {
+    padding-top: .3em;
+    font-size: .8em;
+}
+
+.remark-slide-content.inverse {
+    background: #333;
+    color: #fff;
+    border-bottom-color: orange;
+}
+
+.inverse a {
+    color: orange;
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+    color: #fff;
+}
+
+.img-65 img {
+    max-width: 65%;
+}
+
+
+.intro-slide .left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+}
+
+.intro-slide .right {
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    width: 40%;
+    transform: translateY(-50%);
+}
+
+.intro-slide .left .header {
+    padding-top: 100px;
+}
+
+.intro-slide .header h1, .intro-slide .header h2, .intro-slide .header h3, .intro-slide .header h4 {
+    margin-bottom: .2em;
+    margin-top: .2em;
+}
+
+.intro-slide .left .footer {
+    position: absolute; 
+    width: 100%;
+    bottom: 150px;
+}
+
+.intro-slide .left .footer h4, .intro-slide .left .footer p {
+    margin-bottom: .2em;
+    margin-top: .2em;
+}
+
+.intro-slide .right .meme img {
+    max-width: 100%;
+}
+
+
+@media print {
+    .no-print {
+        display: none;
+    }
+    .remark-slide-content {
+        border: 1px solid #ccc;
+    }
+}
