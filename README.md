@@ -11,7 +11,7 @@ The slides are available for viewing locally by using [Docker](https://docker.co
 docker-compose up
 ```
 
-and open your browser to http://localhost/slides/01-intro/.  Simply swap out `01-intro` with the appropriate folder name found in the `slides` directory to view different slides.
+and open your browser to [http://localhost/slides/01-intro/](http://localhost/slides/01-intro/).  Simply swap out `01-intro` with the appropriate folder name found in the `slides` directory to view different slides.
 
 In case you're interested into how it works... the slides are written in Markdown and rendered using [RemarkJS](https://remarkjs.com).  The Docker container builds upon the [hairyhenderson/remarkjs](https://hub.docker.com/r/hairyhenderson/remarkjs/) image (made by a fellow Docker organizer) and simply adds the "magic" URL routing to get the right slides.
 
