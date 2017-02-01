@@ -118,7 +118,11 @@ li ul {
     margin-right: 30px;
 }
 
-.right-align-code-block pre {
+.right-align-code-block pre:first-of-type {
     float: right;
     margin-top: -60px;
+}
+
+.right-align-code-block pre:first-of-type code.hljs {
+    padding-right: 45px;
 }
