@@ -126,3 +126,8 @@ li ul {
 .right-align-code-block pre:first-of-type code.hljs {
     padding-right: 45px;
 }
+
+.code-mt-0 pre { margin-top: 0px !important; }
+.code-ml-0 pre { margin-left: 0px !important;}
+.code-mt-50 pre { margin-top: 50px !important; }
+.code-ml-50 pre { margin-left: 50px !important;}
