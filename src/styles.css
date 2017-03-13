@@ -131,3 +131,5 @@ li ul {
 .code-ml-0 pre { margin-left: 0px !important;}
 .code-mt-50 pre { margin-top: 50px !important; }
 .code-ml-50 pre { margin-left: 50px !important;}
+
+.two-thirds-width-content { padding-right: 33%; }
