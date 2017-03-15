@@ -130,7 +130,7 @@ public class Photo {
 
 ---
 
-## Adding a third file
+## Adding a third comment
 
 ```java
 comments.add("How I feel after my code works! 👊");
